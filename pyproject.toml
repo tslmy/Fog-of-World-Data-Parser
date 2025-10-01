@@ -1,0 +1,55 @@
+[project]
+name = "fog-of-world-data-parser"
+version = "0.1.0"
+description = "A data parser for the internal syncing data format used by Fog of World"
+authors = [
+    { name = "Your Name", email = "your.email@example.com" }
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+keywords = ["fog-of-world", "data-parser", "visualization"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+dependencies = [
+    "branca==0.4.2",
+    "certifi==2021.5.30",
+    "charset-normalizer==2.0.4",
+    "click==8.0.1",
+    "folium==0.12.1",
+    "idna==3.2",
+    "Jinja2==3.0.1",
+    "MarkupSafe==2.0.1",
+    "numpy==1.21.2",
+    "Pillow==8.3.1",
+    "requests==2.26.0",
+    "toml==0.10.2",
+    "urllib3==1.26.6",
+]
+
+[project.scripts]
+fog-parser = "main:main"
+
+[project.urls]
+Homepage = "https://github.com/tslmy/Fog-of-World-Data-Parser"
+Repository = "https://github.com/tslmy/Fog-of-World-Data-Parser"
+Issues = "https://github.com/tslmy/Fog-of-World-Data-Parser/issues"
+
+[tool.uv]
+dev-dependencies = [
+    "autopep8==1.5.7",
+    "pycodestyle==2.7.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build_meta"
