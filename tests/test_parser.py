@@ -9,15 +9,9 @@ from src.parser import (
     _tile_x_y_to_lng_lat,
     FILENAME_MASK1,
     FILENAME_MASK2,
-    FILENAME_ENCODING,
     MAP_WIDTH,
-    TILE_WIDTH,
     TILE_HEADER_LEN,
-    TILE_HEADER_SIZE,
     BLOCK_BITMAP_SIZE,
-    BLOCK_EXTRA_DATA,
-    BLOCK_SIZE,
-    BITMAP_WIDTH,
 )
 
 # Helper to create a fake block data
