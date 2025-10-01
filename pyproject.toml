@@ -3,7 +3,8 @@ name = "fog-of-world-data-parser"
 version = "0.1.0"
 description = "A data parser for the internal syncing data format used by Fog of World"
 authors = [
-    { name = "Your Name", email = "your.email@example.com" }
+    { name = "Zed (Zijun) Chen", email = "zed@zijun.dev" }
+    { name = "Ming", email = "pypi-fogdp@myli.page" }
 ]
 readme = "README.md"
 license-files = [ "LICENSE" ]
