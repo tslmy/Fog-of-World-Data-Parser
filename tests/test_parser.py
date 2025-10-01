@@ -1,9 +1,7 @@
-import os
-import tempfile
 import zlib
 import struct
 import pytest
-from parser import (
+from src.parser import (
     Block,
     Tile,
     FogMap,
