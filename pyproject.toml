@@ -44,9 +44,11 @@ Homepage = "https://github.com/tslmy/Fog-of-World-Data-Parser"
 Repository = "https://github.com/tslmy/Fog-of-World-Data-Parser"
 Issues = "https://github.com/tslmy/Fog-of-World-Data-Parser/issues"
 
-[tool.uv]
-dev-dependencies = [
+[dependency-groups]
+dev = [
     "autopep8==1.5.7",
+    "coverage-badge>=1.1.2",
     "pycodestyle==2.7.0",
     "pytest>=8.3.5",
+    "pytest-cov>=5.0.0",
 ]
