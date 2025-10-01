@@ -1,7 +1,7 @@
 import zlib
 import struct
 import pytest
-from src.parser import (
+from fog_of_world_data_parser.parser import (
     Block,
     Tile,
     FogMap,

@@ -100,8 +100,8 @@ wheels = [
 
 [[package]]
 name = "fog-of-world-data-parser"
-version = "0.1.1"
-source = { virtual = "." }
+version = "0.1.4"
+source = { editable = "." }
 
 [package.dev-dependencies]
 dev = [
