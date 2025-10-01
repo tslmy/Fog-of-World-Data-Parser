@@ -49,7 +49,3 @@ dev-dependencies = [
     "autopep8==1.5.7",
     "pycodestyle==2.7.0",
 ]
-
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build_meta"
