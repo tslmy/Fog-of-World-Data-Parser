@@ -48,4 +48,5 @@ Issues = "https://github.com/tslmy/Fog-of-World-Data-Parser/issues"
 dev-dependencies = [
     "autopep8==1.5.7",
     "pycodestyle==2.7.0",
+    "pytest>=8.3.5",
 ]
